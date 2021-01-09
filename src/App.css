@@ -56,20 +56,20 @@
 }
 
 @keyframes App-logo-fade {
-  from {
-    opacity: 100%;
+  0% {
+    opacity: 1;
   }
-  to {
-    opacity: 0%;
+  100% {
+    opacity: 0;
   }
 }
 
 @keyframes welcome-fade {
-  from {
-    opacity: 100%;
+  0% {
+    opacity: 1;
   }
-  to {
-    opacity: 25%;
+  100% {
+    opacity: 0.25;
   }
 }
 
