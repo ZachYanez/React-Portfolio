@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.content-area{
+  min-height: 500px;
+  color: white;
+}
+
+.welcome {
+  color:white;
+}
+
+.staticLink{
+  color:white !important;
+  text-decoration: underline !important;
+}
+
+.textColorWhite{
+  color: white !important;
+}
+
+.background{
+  background-color: black;
+}
+
+.cardPub{
+  max-width: 66%;
+
+}
+
+.webAccord{
+  background-color: transparent !important;
+}
+
+.welcome:hover{
+  color:grey;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-fade infinite 3s alternate;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .welcome {
+    animation: welcome-fade infinite 3s alternate;
+  }
+}
+
+@keyframes App-logo-fade {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes welcome-fade {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 25%;
+  }
+}
+
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo{
+    animation: pulse infinite 3s alternate;
+  }
+}; */
+
+/* @keyframes pulse {
+  from{
+    height: 20%;
+    width: 20%;
+  }
+  to{
+    height: 22%;
+    width: 22%;
+  }
+} */
