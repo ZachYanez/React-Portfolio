@@ -6,7 +6,7 @@ import Jacket4 from '../../assets/Jacket4.jpg'
 import Jacket5 from '../../assets/Jacket5.jpg'
 import React from 'react'
 
-export default function Carousel1() {
+export default function Carousel5() {
     return (
         <div>
             <div className="d-block w-50 mt-2 mb-2">

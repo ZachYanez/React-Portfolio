@@ -48,7 +48,7 @@ export default function Gallery() {
       <div>
         <Carousel3 />
         <div className="d-flex justify-content-end">
-          <span className="col-6"/>
+          <span className="col-4"/>
           <Carousel4 />
           </div>
           <Carousel5/>

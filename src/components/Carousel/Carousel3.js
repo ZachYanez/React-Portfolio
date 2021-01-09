@@ -7,10 +7,10 @@ import AnF100 from '../../assets/AnF100.jpg'
 import AnF104 from '../../assets/AnF104.jpg'
 import React from 'react'
 
-export default function Carousel1() {
+export default function Carousel3() {
     return (
         <div>
-            <div className="d-block w-50 mt-2 mb-2">
+            <div className="d-block w-75 mt-2 mb-2">
             <Carousel>
   <Carousel.Item>
     <img

@@ -5,7 +5,7 @@ import Fashion3 from '../../assets/Fashion3.jpg'
 import Fashion4 from '../../assets/Fashion4.jpg'
 import React from 'react'
 
-export default function Carousel1() {
+export default function Carousel2() {
     return (
         <div>
             <div className="d-block w-100">

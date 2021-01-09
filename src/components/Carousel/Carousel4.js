@@ -7,10 +7,10 @@ import CDWstanding5 from '../../assets/CDWstanding5.jpg'
 import CDWsweater1 from '../../assets/CDWsweater1.jpg'
 import React from 'react'
 
-export default function Carousel1() {
+export default function Carousel4() {
     return (
         <div>
-            <div className="d-block w-100 mt-2 mb-2">
+            <div className="d-block w-80 mt-2 mb-2">
             <Carousel>
   <Carousel.Item>
     <img
