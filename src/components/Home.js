@@ -3,7 +3,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Lean from '../assets/Lean.jpg'
-import Bio from './Items/Accordian'
+import BioHeader from './Items/BioHeader'
+import Bio from './Items/Bio'
 import { Parallax } from 'react-parallax';
 
 
@@ -32,7 +33,7 @@ export default function Home() {
             <Nav.Link href="#Published">Published</Nav.Link>
             <Nav.Link href="#Webdev">Web Development</Nav.Link>
           </Nav>
-          {/* Bio Component */}
+      
           <Nav>
           <Nav.Link href="mailto:zachyanez@gmail.com">Email</Nav.Link>
           </Nav>
@@ -45,7 +46,10 @@ export default function Home() {
         </div>
        </Parallax>
        <div className="content-area">
-     
+       <BioHeader />
+       <div>
+         <Bio />
+      </div>
         </div>
    
      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

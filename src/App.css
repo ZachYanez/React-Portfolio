@@ -20,6 +20,15 @@
   color: white !important;
 }
 
+.Header{
+  font-size: 36pt;
+}
+
+.bioContent{
+  font-size: 20pt
+}
+
+
 .background{
   background-color: black;
 }
