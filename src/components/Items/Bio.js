@@ -10,10 +10,11 @@ export default function Bio() {
             As a teacher, Zach began working with learners of all ages and abilities as soon as he returned from DePaul. He currently teaches piano lessons to students ages 6-12 for Westlake Lessons, and has worked for the non-profits All Rhythms and Beyond The Grade teaching percussion classes to underserved communities in the Austin area.
             <div/>
             <br/>    
-            Most recently Zach has graduated the Coding Bootcamp at The University of Texas at Austin with a certificate in Full-Stack Web Development. Languages & Technologies he is proficient are listed below<div/>
+            Most recently Zach has graduated the Coding Bootcamp at The University of Texas at Austin with a certificate in Full-Stack Web Development. Languages & Technologies he is proficient are listed below.<div/>
             <br/>
-            HTML  •  Javascript  •  CSS  •  JQuery  •  MongoDB  •  Express  •  React  •  Node.js •  Webpack • MySQL  •  VScode  •  Ajax  •  NPM  •  Git   •   Bash/Unix  •  IndexedDB 
-        
+            HTML  •  CSS  •  Javascript   •  MongoDB  •  Express  •  React  •  Node.js •  Webpack • MySQL  •  VScode  •  JQuery  •  Ajax  •  NPM  •  Git   •   Bash/Unix  •  IndexedDB •
+            <div/>
+            <br/>
         </div>
     )
 }
