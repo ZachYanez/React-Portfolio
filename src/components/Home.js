@@ -56,9 +56,7 @@ export default function Home() {
         <Navbar.Brand href="#home">Z</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#Home">Home</Nav.Link>
-            
+          <Nav className="mr-auto"> 
           </Nav>
           <Nav>
             <Nav.Link href="mailto:zachyanez@gmail.com">Email</Nav.Link>
