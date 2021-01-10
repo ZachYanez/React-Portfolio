@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Real-Portfolio/static/css/main.c9027330.chunk.css",
-    "main.js": "/Real-Portfolio/static/js/main.7d33737c.chunk.js",
-    "main.js.map": "/Real-Portfolio/static/js/main.7d33737c.chunk.js.map",
+    "main.css": "/Real-Portfolio/static/css/main.0769ef5b.chunk.css",
+    "main.js": "/Real-Portfolio/static/js/main.628b48a4.chunk.js",
+    "main.js.map": "/Real-Portfolio/static/js/main.628b48a4.chunk.js.map",
     "runtime-main.js": "/Real-Portfolio/static/js/runtime-main.ca5d3ab5.js",
     "runtime-main.js.map": "/Real-Portfolio/static/js/runtime-main.ca5d3ab5.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/Real-Portfolio/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.a81c237f.chunk.js": "/Real-Portfolio/static/js/2.a81c237f.chunk.js",
-    "static/js/2.a81c237f.chunk.js.map": "/Real-Portfolio/static/js/2.a81c237f.chunk.js.map",
+    "static/js/2.5237b7bb.chunk.js": "/Real-Portfolio/static/js/2.5237b7bb.chunk.js",
+    "static/js/2.5237b7bb.chunk.js.map": "/Real-Portfolio/static/js/2.5237b7bb.chunk.js.map",
     "static/js/3.7f6a352b.chunk.js": "/Real-Portfolio/static/js/3.7f6a352b.chunk.js",
     "static/js/3.7f6a352b.chunk.js.map": "/Real-Portfolio/static/js/3.7f6a352b.chunk.js.map",
     "index.html": "/Real-Portfolio/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/Real-Portfolio/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.c9027330.chunk.css.map": "/Real-Portfolio/static/css/main.c9027330.chunk.css.map",
-    "static/js/2.a81c237f.chunk.js.LICENSE.txt": "/Real-Portfolio/static/js/2.a81c237f.chunk.js.LICENSE.txt",
+    "static/css/main.0769ef5b.chunk.css.map": "/Real-Portfolio/static/css/main.0769ef5b.chunk.css.map",
+    "static/js/2.5237b7bb.chunk.js.LICENSE.txt": "/Real-Portfolio/static/js/2.5237b7bb.chunk.js.LICENSE.txt",
     "static/media/AnF100.f56274eb.jpg": "/Real-Portfolio/static/media/AnF100.f56274eb.jpg",
     "static/media/AnF104.e03067b7.jpg": "/Real-Portfolio/static/media/AnF104.e03067b7.jpg",
     "static/media/AnF26.257243de.jpg": "/Real-Portfolio/static/media/AnF26.257243de.jpg",
@@ -52,8 +52,8 @@
   "entrypoints": [
     "static/js/runtime-main.ca5d3ab5.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.a81c237f.chunk.js",
-    "static/css/main.c9027330.chunk.css",
-    "static/js/main.7d33737c.chunk.js"
+    "static/js/2.5237b7bb.chunk.js",
+    "static/css/main.0769ef5b.chunk.css",
+    "static/js/main.628b48a4.chunk.js"
   ]
 }
