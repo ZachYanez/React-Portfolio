@@ -5,7 +5,7 @@ import FoodBookLogo from '../../assets/FoodBookLogo.png'
 export default function FoodBook() {
     return (
         <div>
-            <a target="_blank" href="http://www.frizzcheck.com">
+            <a target="_blank" href="https://evening-hamlet-32394.herokuapp.com/">
             <Image src={FoodBookLogo} thumbnail />
             </a>
         </div>
