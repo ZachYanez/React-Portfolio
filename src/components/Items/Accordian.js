@@ -8,6 +8,7 @@ import RPG from './RPG'
 import Restaurant from './Restaurant'
 import Note from './Note'
 import Budget from './Budget'
+import SayHey from './SayHey'
 
 export default function Accordian() {
     return (
@@ -28,6 +29,18 @@ export default function Accordian() {
   </Card>
   <Card className="webAccord">
     <Card.Header className="d-flex justify-content-center" >
+      <Accordion.Toggle  className="textColorWhite" as={Button} variant="link" eventKey="5">
+        Budget Tracker
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="5">
+      <Card.Body className="d-flex justify-content-center" >
+        <Budget />
+      </Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card className="webAccord">
+    <Card.Header className="d-flex justify-content-center" >
       <Accordion.Toggle  className="textColorWhite" as={Button} variant="link" eventKey="1">
         FoodBook
       </Accordion.Toggle>
@@ -40,13 +53,13 @@ export default function Accordian() {
   </Card>
   <Card className="webAccord">
     <Card.Header className="d-flex justify-content-center" >
-      <Accordion.Toggle  className="textColorWhite" as={Button} variant="link" eventKey="5">
-        Budget Tracker
+      <Accordion.Toggle  className="textColorWhite" as={Button} variant="link" eventKey="6">
+        sayHey
       </Accordion.Toggle>
     </Card.Header>
-    <Accordion.Collapse eventKey="5">
+    <Accordion.Collapse eventKey="6">
       <Card.Body className="d-flex justify-content-center" >
-        <Budget />
+        <SayHey />
       </Card.Body>
     </Accordion.Collapse>
   </Card>
