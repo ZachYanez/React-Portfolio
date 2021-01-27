@@ -23,7 +23,7 @@ export default function VidPage() {
           <Nav className="mr-auto">
             <Nav.Link href="#Home">Home</Nav.Link>
             <NavDropdown title="Resumes" id="collasible-nav-dropdown">
-              <NavDropdown.Item target="_blank" href="https://docs.google.com/document/d/1BcQMigdDc1vVoHoA74L9yAogPVHGwgpyKS150JCQnbQ/edit">Standard Resume</NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://docs.google.com/document/d/1G01xAHsiJRkWq-Ug-UA_B2KY-wJ0AABOxLXmicG0iYI/edit?usp=sharing">Standard Resume</NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://drive.google.com/drive/u/0/folders/1VTOSj2tns_3iLfshmJYWYNrPikSC0nIv">Entertainment Resume</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Where to Find Me" id="collasible-nav-dropdown">
