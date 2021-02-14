@@ -22,7 +22,7 @@ export default function Published() {
               </NavDropdown.Item>
               <NavDropdown.Item
                 target="_blank"
-                href="https://drive.google.com/drive/u/0/folders/1VTOSj2tns_3iLfshmJYWYNrPikSC0nIv"
+                href="https://drive.google.com/file/d/1UYyQI0CRbvNmUQnuC86onmz4mer0Jhsg/view?usp=sharing"
               >
                 Entertainment Resume
               </NavDropdown.Item>
