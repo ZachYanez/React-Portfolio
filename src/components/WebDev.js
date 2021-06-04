@@ -53,6 +53,7 @@ export default function Published() {
             <Nav.Link className="staticLink" href="#Webdev">
               Web Development
             </Nav.Link>
+            <Nav.Link href="#PrivacyPolicy">PrivacyPolicy</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="mailto:zachyanez@gmail.com">Email</Nav.Link>
@@ -64,6 +65,9 @@ export default function Published() {
           <Accordian />
         </div>
       </span>
+      <div className="content-area col-5">
+
+      </div>
 
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home">Z</Navbar.Brand>

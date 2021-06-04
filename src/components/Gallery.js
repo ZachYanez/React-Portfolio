@@ -57,6 +57,7 @@ export default function Gallery() {
             <Nav.Link href="#VidPage">Videos</Nav.Link>
             <Nav.Link href="#Published">Published</Nav.Link>
             <Nav.Link href="#WebDev">Web Development</Nav.Link>
+            <Nav.Link href="#PrivacyPolicy">PrivacyPolicy</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="mailto:zachyanez@gmail.com">Email</Nav.Link>

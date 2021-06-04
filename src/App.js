@@ -5,6 +5,8 @@ import VidPage from "./components/VidPage";
 import Gallery from "./components/Gallery";
 import Published from "./components/Published";
 import WebDev from "./components/WebDev";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+
 import "./App.css";
 
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
@@ -37,6 +39,10 @@ function App() {
         <Route exact path="/WebDev" component={WebDev}>
           <WebDev />
         </Route>
+        <Route exact path="/PrivacyPolicy" component={PrivacyPolicy}>
+          <PrivacyPolicy />
+        </Route>
+
       </Switch>
     </Router>
   );

@@ -58,6 +58,7 @@ export default function Home() {
             <Nav.Link href="#VidPage">Videos</Nav.Link>
             <Nav.Link href="#Published">Published</Nav.Link>
             <Nav.Link href="#Webdev">Web Development</Nav.Link>
+            <Nav.Link href="#PrivacyPolicy">PrivacyPolicy</Nav.Link>
           </Nav>
 
           <Nav>
