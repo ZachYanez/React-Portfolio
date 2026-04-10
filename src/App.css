@@ -42,6 +42,37 @@
   background-color: transparent !important;
 }
 
+.projectTileLink{
+  text-decoration: none !important;
+  width: 100%;
+}
+
+.projectTile{
+  width: 100%;
+  max-width: 560px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.04);
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.projectTile:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.projectTileTitle{
+  margin-bottom: 12px;
+}
+
+.projectTileBody{
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.6;
+}
+
 .welcome:hover{
   color:grey;
 }

@@ -16,9 +16,12 @@ export default function Published() {
             <NavDropdown title="Resumes" id="collasible-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
-                href="https://docs.google.com/document/d/1G01xAHsiJRkWq-Ug-UA_B2KY-wJ0AABOxLXmicG0iYI/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1G01xAHsiJRkWq-Ug-UA_B2KY-wJ0AABOxLXmicG0iYI/edit?tab=t.0"
               >
-                Standard Resume
+                View Resume
+              </NavDropdown.Item>
+              <NavDropdown.Item download="zach-yanez-resume.pdf" href="/zach-yanez-resume.pdf">
+                Download Resume (PDF)
               </NavDropdown.Item>
               <NavDropdown.Item
                 target="_blank"

@@ -2,12 +2,9 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import DocTalk from "./DocTalk";
 import FrizzCheck from "./FrizzCheck";
-import FoodBook from "./FoodBook";
-import RPG from "./RPG";
-import Restaurant from "./Restaurant";
-import Note from "./Note";
-import Budget from "./Budget";
+import Recette from "./Recette";
 import SayHey from "./SayHey";
 
 export default function Accordian() {
@@ -17,11 +14,35 @@ export default function Accordian() {
         <Accordion>
           <Card className="webAccord">
             <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="6">
+              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="0">
+                DocTalk
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="0">
+              <Card.Body className="d-flex justify-content-center">
+                <DocTalk />
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          <Card className="webAccord">
+            <Card.Header className="d-flex justify-content-center">
+              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="1">
+                Recette
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="1">
+              <Card.Body className="d-flex justify-content-center">
+                <Recette />
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          <Card className="webAccord">
+            <Card.Header className="d-flex justify-content-center">
+              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="2">
                 SayHey
               </Accordion.Toggle>
             </Card.Header>
-            <Accordion.Collapse eventKey="6">
+            <Accordion.Collapse eventKey="2">
               <Card.Body className="d-flex justify-content-center">
                 <SayHey />
               </Card.Body>
@@ -29,73 +50,13 @@ export default function Accordian() {
           </Card>
           <Card className="webAccord">
             <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="0">
-                FrizzCheck
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body className="d-flex justify-content-center">
-                <FrizzCheck />
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card className="webAccord">
-            <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="5">
-                Budget Tracker
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="5">
-              <Card.Body className="d-flex justify-content-center">
-                <Budget />
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card className="webAccord">
-            <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="1">
-                FoodBook
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="1">
-              <Card.Body className="d-flex justify-content-center">
-                <FoodBook />
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card className="webAccord">
-            <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="2">
-                Random Password Generator
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="2">
-              <Card.Body className="d-flex justify-content-center">
-                <RPG />
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card className="webAccord">
-            <Card.Header className="d-flex justify-content-center">
               <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="3">
-                Restaurant Finder
+                FrizzCheck
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
               <Card.Body className="d-flex justify-content-center">
-                <Restaurant />
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card className="webAccord">
-            <Card.Header className="d-flex justify-content-center">
-              <Accordion.Toggle className="textColorWhite" as={Button} variant="link" eventKey="4">
-                Note Taker
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="4">
-              <Card.Body className="d-flex justify-content-center">
-                <Note />
+                <FrizzCheck />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
