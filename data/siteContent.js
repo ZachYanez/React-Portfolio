@@ -121,53 +121,44 @@ export const siteContent = {
       image: "/assets/FrizzCheckLogo.png",
     },
   ],
-  archiveProjects: [
+  publishedWorks: [
     {
-      name: "Budget Tracker",
-      href: "https://budgettrackeryanez.herokuapp.com/",
-      image: "/assets/BudgetLogo.png",
+      title: '"Pocket Change: The Official Transcription Book"',
+      description:
+        'In the summer of 2018 Zach had the opportunity to work with world renown musician, and drummer Nate Smith. He transcribed all 11 solos from Nate\'s album "Pocket Change" to create a collection of highly detailed, extremely advanced drum solos. It has sold all over the world in paperback, ebook, and pdf.',
+      cover: "/assets/PocketChangeCover.jpg",
+      links: [
+        {
+          label: "Shop",
+          href: "https://merch.ambientinks.com/collections/natesmith/products/pocket-change-the-official-transcription-book",
+        },
+        {
+          label: "Preview the Book",
+          href: "https://www.blurb.com/ebooks/reader.html?e=683763#/spread/7",
+        },
+        {
+          label: "Nate Smith",
+          href: "https://www.youtube.com/results?search_query=nate+smith+drummer",
+        },
+      ],
     },
     {
-      name: "FoodBook",
-      href: "https://evening-hamlet-32394.herokuapp.com/",
-      image: "/assets/FoodBookLogo.png",
-    },
-    {
-      name: "Random Password Generator",
-      href: "https://zachyanez.github.io/randompasswordgenerator/",
-      image: "/assets/RPGLogo.png",
-    },
-    {
-      name: "Restaurant Finder",
-      href: "https://scastanedamunoz.github.io/Project-1/",
-      image: "/assets/RestaurantLogo.png",
-    },
-    {
-      name: "Note Taker",
-      href: "https://zach-yanez-note-taker.herokuapp.com/notes",
-      image: "/assets/NoteLogo.png",
+      title: '"Pocket Change 2: Mad Currency — The Official Transcription Book"',
+      description:
+        'The follow-up to the original, transcribing the solos from Nate Smith\'s "Pocket Change 2: Mad Currency." Another set of highly detailed, extremely advanced drum transcriptions published through Waterbaby Music.',
+      cover: "/assets/PocketChange2Cover.png",
+      links: [
+        {
+          label: "Shop",
+          href: "https://merch.ambientinks.com/collections/natesmith/products/pocket-change-2-mad-currency-the-official-transcription-book",
+        },
+        {
+          label: "Nate Smith Drums",
+          href: "https://www.natesmithdrums.com/products/nate-smith-pocket-change-2-mad-currency-the-official-transcription-book",
+        },
+      ],
     },
   ],
-  publishedWork: {
-    title: '"Pocket Change: The Official Transcription Book"',
-    description:
-      'In the summer of 2018 Zach had the opportunity to work with world renown musician, and drummer Nate Smith. He transcribed all 11 solos from Nate\'s album "Pocket Change" to create a collection of highly detailed, extremely advanced drum solos. It has sold all over the world in paperback, ebook, and pdf.',
-    cover: "/assets/PocketChangeCover.jpg",
-    links: [
-      {
-        label: "Shop",
-        href: "http://www.natesmithmusic.com/products/pocketchangephysicalbook",
-      },
-      {
-        label: "Preview the Book",
-        href: "https://www.blurb.com/ebooks/reader.html?e=683763#/spread/7",
-      },
-      {
-        label: "Nate Smith",
-        href: "https://www.youtube.com/results?search_query=nate+smith",
-      },
-    ],
-  },
   gallerySeries: [
     {
       title: "Smile Series",

@@ -5,9 +5,9 @@ import { siteContent } from "../data/siteContent";
 const navigation = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#work" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Videos", href: "#videos" },
   { label: "Published", href: "#published" },
+  { label: "Videos", href: "#videos" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
@@ -100,7 +100,7 @@ export default function PortfolioPage() {
       <section className="contentSection parallaxSection" id="work">
         <div className="sectionHeading">
           <p className="eyebrow">Selected Projects</p>
-          <h2>Relevant products first, with the earlier work still preserved in an archive.</h2>
+          <h2>Relevant products built across mobile, web, and AI.</h2>
         </div>
         <div className="projectGrid">
           {siteContent.featuredProjects.map((project) => (
@@ -121,24 +121,55 @@ export default function PortfolioPage() {
             </ExternalAnchor>
           ))}
         </div>
-        <div className="archivePanel glassCard">
-          <div className="archiveHeader">
-            <div>
-              <p className="eyebrow">Archive</p>
-              <h3>Earlier web projects</h3>
+      </section>
+
+      <section className="contentSection" id="published">
+        <div className="sectionHeading">
+          <p className="eyebrow">Published Work</p>
+          <h2>Writing and transcription work remains part of the portfolio story.</h2>
+        </div>
+        {siteContent.publishedWorks.map((book) => (
+          <div key={book.title} className="publishedGrid glassCard">
+            <div className="bookCover">
+              <Image alt={book.title} fill sizes="(max-width: 900px) 100vw, 380px" src={book.cover} />
             </div>
-            <p>Still included so none of the original site history disappears.</p>
+            <div className="bookCopy">
+              <h3>{book.title}</h3>
+              <p>{book.description}</p>
+              <div className="buttonRow">
+                {book.links.map((link) => (
+                  <ExternalAnchor key={link.href} className="buttonGhost" href={link.href}>
+                    {link.label}
+                  </ExternalAnchor>
+                ))}
+              </div>
+            </div>
           </div>
-          <div className="archiveGrid">
-            {siteContent.archiveProjects.map((project) => (
-              <ExternalAnchor key={project.name} className="archiveCard" href={project.href}>
-                <div className="archiveLogo">
-                  <Image alt={`${project.name} logo`} fill sizes="140px" src={project.image} />
-                </div>
-                <span>{project.name}</span>
-              </ExternalAnchor>
-            ))}
-          </div>
+        ))}
+      </section>
+
+      <section className="contentSection parallaxSection" id="videos">
+        <div className="sectionHeading">
+          <p className="eyebrow">Videos</p>
+          <h2>All nine performance videos preserved in a responsive viewing grid.</h2>
+        </div>
+        <div className="videoGrid">
+          {siteContent.videos.map((videoId, index) => (
+            <article key={videoId} className="videoCard">
+              <div className="videoFrame">
+                <iframe
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                  src={`https://www.youtube.com/embed/${videoId}`}
+                  title={`Zach Yanez video ${index + 1}`}
+                />
+              </div>
+              <div className="videoMeta">
+                <span>Performance {String(index + 1).padStart(2, "0")}</span>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
@@ -171,54 +202,6 @@ export default function PortfolioPage() {
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section className="contentSection parallaxSection" id="videos">
-        <div className="sectionHeading">
-          <p className="eyebrow">Videos</p>
-          <h2>All nine performance videos preserved in a responsive viewing grid.</h2>
-        </div>
-        <div className="videoGrid">
-          {siteContent.videos.map((videoId, index) => (
-            <article key={videoId} className="videoCard">
-              <div className="videoFrame">
-                <iframe
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                  src={`https://www.youtube.com/embed/${videoId}`}
-                  title={`Zach Yanez video ${index + 1}`}
-                />
-              </div>
-              <div className="videoMeta">
-                <span>Performance {String(index + 1).padStart(2, "0")}</span>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="contentSection" id="published">
-        <div className="sectionHeading">
-          <p className="eyebrow">Published Work</p>
-          <h2>Writing and transcription work remains part of the portfolio story.</h2>
-        </div>
-        <div className="publishedGrid glassCard">
-          <div className="bookCover">
-            <Image alt={siteContent.publishedWork.title} fill sizes="(max-width: 900px) 100vw, 380px" src={siteContent.publishedWork.cover} />
-          </div>
-          <div className="bookCopy">
-            <h3>{siteContent.publishedWork.title}</h3>
-            <p>{siteContent.publishedWork.description}</p>
-            <div className="buttonRow">
-              {siteContent.publishedWork.links.map((link) => (
-                <ExternalAnchor key={link.href} className="buttonGhost" href={link.href}>
-                  {link.label}
-                </ExternalAnchor>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
