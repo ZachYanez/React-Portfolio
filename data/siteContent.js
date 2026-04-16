@@ -77,16 +77,6 @@ export const siteContent = {
       href: "https://x.com/zachyanez",
       external: true,
     },
-    {
-      label: "Brown Agency",
-      href: "http://www.brownagency.co/commercial/men/1114-zach-yanez/",
-      external: true,
-    },
-    {
-      label: "Westlake Lessons",
-      href: "https://www.westlakelessons.com/zachary-yanez#:~:text=Zach%20Yanez%20is%20a%20highly,classical%20percussion%20and%20drum%20set.",
-      external: true,
-    },
   ],
   sayHeySpotlight: {
     title: "SayHey!",

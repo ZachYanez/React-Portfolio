@@ -40,3 +40,4 @@
 {"timestamp":"21:08:34.910","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"http://localhost:3001/assets/sayHeyLogo.png\" has \"fill\" and parent element with invalid \"position\". Provided \"static\" should be one of absolute,fixed,relative.\u001b[39m"}
 {"timestamp":"21:08:40.942","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
 {"timestamp":"21:08:47.977","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"22:51:49.870","source":"Server","level":"LOG","message":"✓ Compiled in 88ms"}
