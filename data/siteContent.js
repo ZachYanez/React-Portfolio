@@ -73,6 +73,11 @@ export const siteContent = {
       external: true,
     },
     {
+      label: "X",
+      href: "https://x.com/zachyanez",
+      external: true,
+    },
+    {
       label: "Brown Agency",
       href: "http://www.brownagency.co/commercial/men/1114-zach-yanez/",
       external: true,
@@ -83,42 +88,113 @@ export const siteContent = {
       external: true,
     },
   ],
+  sayHeySpotlight: {
+    title: "SayHey!",
+    eyebrow: "Translation & acquisition",
+    image: "/assets/sayHeyLogo.png",
+    appHref: "https://sayheyapp.link",
+    acquirerName: "7T",
+    acquirerHref: "https://7t.ai",
+    paragraphs: [
+      "SayHey! was a translation app built for travel’s return after COVID—when people were moving again but still wanted communication that felt human, not like a phrasebook. It centered expressive, personalized messaging across eighteen languages, with typography and color treated as part of what you were actually saying abroad.",
+      "As the app found traction—including a strong run in Travel on the App Store—the naming rights and related IP were acquired, turning a lean, independently shipped product into a commercial asset with a clear ownership story.",
+      "Later, 7T acquired the company behind SayHey!. That transition led directly to joining 7T—carrying the same craft in React Native, product polish, and end-to-end delivery from SayHey! into broader mobile and platform work.",
+    ],
+  },
   featuredProjects: [
     {
       name: "DocTalk Medical",
       href: "https://doctalkhealth.com/",
+      image: "/assets/DocTalkIcon.png",
       description:
-        "AI health platform with context-aware chat, clickable medical citations, document analysis, and appointment-note workflows.",
+        "AI medical assistant built around health-only chat, document understanding, and appointment-ready visit workflows.",
       highlight:
-        "Built for privacy-conscious healthcare interactions and launched internationally.",
+        "Launched internationally with a privacy-first architecture and 100+ worldwide downloads.",
       category: "Featured Product",
+      features: [
+        "Medical chat with citations, scope enforcement, and crisis safeguards.",
+        "PDF and image analysis plus a searchable documents catalog for past medical context.",
+        "Appointments workspace for audio, photos, notes, and shareable structured reports.",
+      ],
+      engineering: [
+        "Expo Router + MobX frontend with SecureStore auth and RevenueCat subscription handling.",
+        "Node/Express backend with MongoDB Atlas, JWT auth, AES-256-GCM encryption, and Firebase-backed file flows.",
+        "Perplexity Sonar, Vertex Gemini, and background synopsis jobs orchestrated behind plan-aware API limits.",
+      ],
+      design: [
+        "High-trust UX built around focused medical-only guidance instead of open-ended chat sprawl.",
+        "Document-first flows keep chat, saved context, and report viewing clear on a small-screen mobile experience.",
+      ],
     },
     {
       name: "Recette",
       href: "https://therecetteapp.com/",
+      image: "/assets/RecetteIcon.png",
       description:
-        "AI recipe workflow app for capturing, organizing, planning, shopping, and cooking across the full meal journey.",
+        "AI-powered recipe and meal-planning product spanning capture, planning, shopping, and cooking in one mobile workflow.",
       highlight:
-        "Supports recipe ingestion from audio, video, OCR, web imports, and AI-assisted generation.",
+        "Built as a multimodal mobile system with offline-safe planning and server-side subscription enforcement.",
       category: "Featured Product",
+      features: [
+        "Capture recipes from manual entry, narrated audio, video, OCR scans, social links, webpages, and prompt-driven generation.",
+        "Meal planning for personal and household scopes with four-week browsing, quick adds, and Plan My Week previews.",
+        "Cooking mode with voice navigation, timers, text-to-speech, nutrition, and shopping-list generation.",
+      ],
+      engineering: [
+        "Expo Router + MobX mobile app backed by an Express TypeScript API and Supabase Postgres/Storage.",
+        "OpenAI, Gemini, Cobalt, USDA, and RevenueCat integrations power enrichment, media handling, and monetization.",
+        "Server-authoritative feature gating and offline mutation queues keep planner workflows resilient.",
+      ],
+      design: [
+        "Many capture paths are normalized into one recipe model so the product feels coherent instead of fragmented.",
+        "Planner and cooking flows are tuned for in-kitchen use with preview, swap, and large-step interactions.",
+      ],
     },
     {
       name: "SayHey!",
       href: "https://sayheyapp.link",
       description:
-        "Translation app centered on expressive communication with highly dynamic visual customization across 18 languages.",
-      highlight: "Reached #32 in the Travel category and was later acquired by 7T.",
+        "Translation app centered on expressive communication rather than generic utility, with deep visual customization across 18 languages.",
+      highlight: "Reached #32 in Travel and was later acquired after proving demand for a highly personalized translation experience.",
       category: "Featured Product",
       image: "/assets/sayHeyLogo.png",
+      features: [
+        "Translation support across 18 widely spoken languages.",
+        "Unlimited saved translations for quick reuse in repeat scenarios.",
+        "Hundreds of font and color combinations for highly personalized message presentation.",
+      ],
+      engineering: [
+        "Built with Expo and React Native using Google translation integrations and persistent local state.",
+        "A broad typography system was powered by numerous Expo Google Fonts packages and dynamic style rendering.",
+        "The mobile app balanced translation output, saved history, and real-time personalization in one interface.",
+      ],
+      design: [
+        "Typography and color were treated as part of the communication itself, not just decorative theming.",
+        "The UI was designed to feel expressive and personal so translated phrases could match tone and intent.",
+      ],
     },
     {
       name: "FrizzCheck",
       href: "http://www.frizzcheck.com",
       description:
-        "A focused utility experience launched as part of Zach's early product portfolio.",
-      highlight: "Preserved as part of the active portfolio archive.",
+        "Weather-aware hair forecast utility that turns raw conditions into fast, personal decisions.",
+      highlight: "Designed as a focused consumer utility: quick, visual, and easier to read than a generic weather app.",
       category: "Featured Product",
       image: "/assets/FrizzCheckLogo.png",
+      features: [
+        "Location-aware weather lookup with humidity-focused forecasts and seven-day outlooks.",
+        "Hair profile personalization using type, texture, porosity, and density.",
+        "Charts, daily summaries, and instant good-hair-day predictions.",
+      ],
+      engineering: [
+        "Built with Expo and React Native using React Navigation, React Native Paper, Axios, and OpenWeather.",
+        "Persistent local settings and profile data keep the utility fast between sessions.",
+        "Weather, location, and hair-profile inputs are combined into a lightweight prediction flow.",
+      ],
+      design: [
+        "Gradient UI, dynamic hair iconography, and at-a-glance summaries keep the utility playful but efficient.",
+        "The home, forecast, and settings flow was shaped for fast daily use instead of deep weather analysis.",
+      ],
     },
   ],
   publishedWorks: [
@@ -197,12 +273,4 @@ export const siteContent = {
     "0Wnf3P-caBw",
     "Rt9VbJWyDTI",
   ],
-  privacyPolicy: {
-    title: "SayHey! Privacy Policy",
-    body: [
-      "SayHey! and the ownership at ZY MGMT CO does not sell, collect, or use ANY data that is associated with the users' name, age, location, phone number, email, frequency of use, or personal data that can link the translations and/or text to the users.",
-      "For any inquiries please email zy@zymgmtco.com.",
-      '"SayHey!" is currently under trademark review through the USPTO.',
-    ],
-  },
 };

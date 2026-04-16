@@ -24,7 +24,6 @@ export default function LandingGate() {
         <div className="landingLogoWrap">
           <Image alt="Zach Yanez logo" className="landingLogo" height={176} priority src="/logo512.png" width={176} />
         </div>
-        <p className="eyebrow">Personal Website</p>
         <h1>{siteContent.name}</h1>
         <p className="landingSummary">Developer, musician, model, teacher, and published author.</p>
         <div className="landingActions">

@@ -1,16 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteContent } from "../data/siteContent";
+import { gallerySeriesSlug } from "../lib/gallerySeriesSlug";
 
 const navigation = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#work" },
   { label: "Published", href: "#published" },
   { label: "Videos", href: "#videos" },
-  { label: "Gallery", href: "#gallery" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
+
+const SELECTED_WORK_HREFS = new Set(["https://doctalkhealth.com/", "https://therecetteapp.com/"]);
 
 function ExternalAnchor({ className, children, href }) {
   return (
@@ -34,7 +37,6 @@ export default function PortfolioPage() {
               {item.label}
             </a>
           ))}
-          <Link href="/privacy">Privacy</Link>
         </nav>
       </header>
 
@@ -67,8 +69,7 @@ export default function PortfolioPage() {
 
       <section className="contentSection" id="about">
         <div className="sectionHeading">
-          <p className="eyebrow">Biography</p>
-          <h2>Multidisciplinary work, presented with a cleaner point of view.</h2>
+          <h2>Biography</h2>
         </div>
         <div className="aboutGrid">
           <div className="glassCard richTextCard">
@@ -99,34 +100,86 @@ export default function PortfolioPage() {
 
       <section className="contentSection parallaxSection" id="work">
         <div className="sectionHeading">
-          <p className="eyebrow">Selected Projects</p>
-          <h2>Relevant products built across mobile, web, and AI.</h2>
+          <h2>App Store</h2>
         </div>
         <div className="projectGrid">
-          {siteContent.featuredProjects.map((project) => (
+          {siteContent.featuredProjects.filter((project) => SELECTED_WORK_HREFS.has(project.href)).map((project) => (
             <ExternalAnchor key={project.name} className="projectCard" href={project.href}>
-              <div className="projectMeta">
-                <span>{project.category}</span>
-                <strong>{project.name}</strong>
-              </div>
-              <p>{project.description}</p>
-              <p className="projectHighlight">{project.highlight}</p>
-              {project.image ? (
-                <div className="projectLogoWrap">
-                  <Image alt={`${project.name} logo`} fill sizes="160px" src={project.image} />
+              <div className="projectCardTop">
+                <div className="projectMeta">
+                  <span>{project.category}</span>
+                  <strong>{project.name}</strong>
                 </div>
-              ) : (
-                <div className="projectTextMark">{project.name.split(" ")[0]}</div>
-              )}
+                {project.image ? (
+                  <div className="projectLogoWrap">
+                    <Image alt={`${project.name} logo`} fill sizes="160px" src={project.image} />
+                  </div>
+                ) : (
+                  <div className="projectTextMark">{project.name.split(" ")[0]}</div>
+                )}
+              </div>
+              <p className="projectDescription">{project.description}</p>
+              <p className="projectHighlight">{project.highlight}</p>
+              <div className="projectDetailsGrid">
+                <div className="projectDetailBlock">
+                  <p className="projectDetailLabel">Features</p>
+                  <ul className="projectDetailList">
+                    {project.features.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="projectDetailBlock">
+                  <p className="projectDetailLabel">Engineering</p>
+                  <ul className="projectDetailList">
+                    {project.engineering.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="projectDetailBlock">
+                  <p className="projectDetailLabel">Design</p>
+                  <ul className="projectDetailList">
+                    {project.design.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="projectFooter">
+                <span>View live product</span>
+                <strong>Open</strong>
+              </div>
             </ExternalAnchor>
           ))}
+          <div className="appStoreSayHey glassCard">
+            <div className="appStoreSayHeyLogo">
+              <div className="appStoreSayHeyLogoWrap">
+                <Image alt="SayHey! app logo" fill sizes="128px" src={siteContent.sayHeySpotlight.image} />
+              </div>
+            </div>
+            <div className="appStoreSayHeyCopy">
+              <p className="eyebrow">{siteContent.sayHeySpotlight.eyebrow}</p>
+              <h3>{siteContent.sayHeySpotlight.title}</h3>
+              {siteContent.sayHeySpotlight.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+              <div className="buttonRow">
+                <ExternalAnchor className="buttonGhost" href={siteContent.sayHeySpotlight.appHref}>
+                  SayHey! on the web
+                </ExternalAnchor>
+                <ExternalAnchor className="buttonGhost" href={siteContent.sayHeySpotlight.acquirerHref}>
+                  {siteContent.sayHeySpotlight.acquirerName}
+                </ExternalAnchor>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="contentSection" id="published">
         <div className="sectionHeading">
-          <p className="eyebrow">Published Work</p>
-          <h2>Writing and transcription work remains part of the portfolio story.</h2>
+          <h2>Published Work</h2>
         </div>
         {siteContent.publishedWorks.map((book) => (
           <div key={book.title} className="publishedGrid glassCard">
@@ -150,11 +203,10 @@ export default function PortfolioPage() {
 
       <section className="contentSection parallaxSection" id="videos">
         <div className="sectionHeading">
-          <p className="eyebrow">Videos</p>
-          <h2>All nine performance videos preserved in a responsive viewing grid.</h2>
+          <h2>Performances</h2>
         </div>
         <div className="videoGrid">
-          {siteContent.videos.map((videoId, index) => (
+          {siteContent.videos.map((videoId) => (
             <article key={videoId} className="videoCard">
               <div className="videoFrame">
                 <iframe
@@ -162,11 +214,8 @@ export default function PortfolioPage() {
                   allowFullScreen
                   loading="lazy"
                   src={`https://www.youtube.com/embed/${videoId}`}
-                  title={`Zach Yanez video ${index + 1}`}
+                  title={`Zach Yanez performance video (${videoId})`}
                 />
-              </div>
-              <div className="videoMeta">
-                <span>Performance {String(index + 1).padStart(2, "0")}</span>
               </div>
             </article>
           ))}
@@ -178,30 +227,28 @@ export default function PortfolioPage() {
           <p className="eyebrow">Gallery</p>
           <h2>A restrained editorial treatment of the existing photography.</h2>
         </div>
-        <div className="galleryStack">
-          {siteContent.gallerySeries.map((series) => (
-            <article key={series.title} className="gallerySeries glassCard">
-              <div className="gallerySeriesHeader">
-                <div>
+        <div className="galleryPreviewGrid">
+          {siteContent.gallerySeries.map((series) => {
+            const slug = gallerySeriesSlug(series.title);
+            const cover = series.images[0];
+            return (
+              <Link key={series.title} className="gallerySeriesPreviewCard" href={`/gallery#${slug}`}>
+                <div className="gallerySeriesPreviewImage">
+                  <Image
+                    alt={`${series.title} — open full gallery`}
+                    fill
+                    sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 320px"
+                    src={cover}
+                  />
+                </div>
+                <div className="gallerySeriesPreviewMeta">
                   <h3>{series.title}</h3>
                   <p>{series.credit}</p>
+                  <span>View series · {series.images.length} photos</span>
                 </div>
-                <span>{series.images.length} images</span>
-              </div>
-              <div className="galleryGrid">
-                {series.images.map((image, index) => (
-                  <div key={image} className={index === 0 ? "galleryItem galleryItemLarge" : "galleryItem"}>
-                    <Image
-                      alt={`${series.title} image ${index + 1}`}
-                      fill
-                      sizes="(max-width: 900px) 100vw, (max-width: 1400px) 50vw, 33vw"
-                      src={image}
-                    />
-                  </div>
-                ))}
-              </div>
-            </article>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -240,19 +287,6 @@ export default function PortfolioPage() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="contentSection">
-        <div className="privacyPreview glassCard">
-          <div>
-            <p className="eyebrow">Privacy</p>
-            <h3>{siteContent.privacyPolicy.title}</h3>
-            <p>{siteContent.privacyPolicy.body[0]}</p>
-          </div>
-          <Link className="buttonGhost" href="/privacy">
-            Read Full Policy
-          </Link>
         </div>
       </section>
 

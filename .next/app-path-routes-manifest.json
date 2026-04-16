@@ -1,7 +1,7 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/gallery/page": "/gallery",
   "/page": "/",
-  "/portfolio/page": "/portfolio",
-  "/privacy/page": "/privacy"
+  "/portfolio/page": "/portfolio"
 }

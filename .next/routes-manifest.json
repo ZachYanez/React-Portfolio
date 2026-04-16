@@ -56,16 +56,16 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
       "page": "/portfolio",
       "regex": "^/portfolio(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/portfolio(?:/)?$"
-    },
-    {
-      "page": "/privacy",
-      "regex": "^/privacy(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/privacy(?:/)?$"
     }
   ],
   "dataRoutes": [],

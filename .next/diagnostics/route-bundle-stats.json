@@ -1,11 +1,25 @@
 [
   {
     "route": "/",
-    "firstLoadUncompressedJsBytes": 542772,
+    "firstLoadUncompressedJsBytes": 546760,
     "firstLoadChunkPaths": [
-      ".next/static/chunks/09o5ajlaogglf.js",
+      ".next/static/chunks/033pziugql9yx.js",
       ".next/static/chunks/0d3shmwh5_nmn.js",
-      ".next/static/chunks/076mg9qm2y.j8.js",
+      ".next/static/chunks/0rvcd2wkq9jbm.js",
+      ".next/static/chunks/16xak96v1pi97.js",
+      ".next/static/chunks/0pqt~8bl3ukh4.js",
+      ".next/static/chunks/0yoi6g0rt32bk.js",
+      ".next/static/chunks/0174xh3wfsjm1.js",
+      ".next/static/chunks/turbopack-11pcicxobdkyz.js"
+    ]
+  },
+  {
+    "route": "/gallery",
+    "firstLoadUncompressedJsBytes": 544857,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/033pziugql9yx.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/07mwu.4349roc.js",
       ".next/static/chunks/16xak96v1pi97.js",
       ".next/static/chunks/0pqt~8bl3ukh4.js",
       ".next/static/chunks/0yoi6g0rt32bk.js",
@@ -15,25 +29,11 @@
   },
   {
     "route": "/portfolio",
-    "firstLoadUncompressedJsBytes": 540804,
+    "firstLoadUncompressedJsBytes": 544857,
     "firstLoadChunkPaths": [
-      ".next/static/chunks/09o5ajlaogglf.js",
+      ".next/static/chunks/033pziugql9yx.js",
       ".next/static/chunks/0d3shmwh5_nmn.js",
-      ".next/static/chunks/0tb9x_537qh_a.js",
-      ".next/static/chunks/16xak96v1pi97.js",
-      ".next/static/chunks/0pqt~8bl3ukh4.js",
-      ".next/static/chunks/0yoi6g0rt32bk.js",
-      ".next/static/chunks/0174xh3wfsjm1.js",
-      ".next/static/chunks/turbopack-11pcicxobdkyz.js"
-    ]
-  },
-  {
-    "route": "/privacy",
-    "firstLoadUncompressedJsBytes": 526443,
-    "firstLoadChunkPaths": [
-      ".next/static/chunks/09o5ajlaogglf.js",
-      ".next/static/chunks/0d3shmwh5_nmn.js",
-      ".next/static/chunks/0ka051yepewro.js",
+      ".next/static/chunks/0vg6u8a~~ydd0.js",
       ".next/static/chunks/16xak96v1pi97.js",
       ".next/static/chunks/0pqt~8bl3ukh4.js",
       ".next/static/chunks/0yoi6g0rt32bk.js",
@@ -43,9 +43,9 @@
   },
   {
     "route": "/_not-found",
-    "firstLoadUncompressedJsBytes": 520615,
+    "firstLoadUncompressedJsBytes": 524668,
     "firstLoadChunkPaths": [
-      ".next/static/chunks/09o5ajlaogglf.js",
+      ".next/static/chunks/033pziugql9yx.js",
       ".next/static/chunks/0d3shmwh5_nmn.js",
       ".next/static/chunks/16xak96v1pi97.js",
       ".next/static/chunks/0pqt~8bl3ukh4.js",
