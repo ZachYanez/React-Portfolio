@@ -119,6 +119,17 @@ const siteContent = {
             "Later, 7T acquired the company behind SayHey!. That transition led directly to joining 7T—carrying the same craft in React Native, product polish, and end-to-end delivery from SayHey! into broader mobile and platform work."
         ]
     },
+    frizzCheckSpotlight: {
+        title: "FrizzCheck",
+        eyebrow: "Neomorphism & hair forecasts",
+        image: "/assets/FrizzCheckLogo.png",
+        appHref: "http://www.frizzcheck.com",
+        paragraphs: [
+            "FrizzCheck is a weather-aware hair utility wrapped in a neomorphic interface—soft extruded panels, gentle depth, and quiet contrast—so the experience feels tactile and calm instead of like another loud forecast app.",
+            "Behind the UI sits a custom good-hair-day prediction pipeline that blends live conditions with a personalized hair profile (type, texture, porosity, and density) to turn humidity, trends, and weekly outlooks into a clear, immediate read on how your hair is likely to behave.",
+            "On release it resonated strongly in China—where the proposition had to read instantly—and sold well there out of the gate, validating a narrow, opinionated consumer product built for quick daily decisions."
+        ]
+    },
     featuredProjects: [
         {
             name: "DocTalk Medical",

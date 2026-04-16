@@ -119,6 +119,17 @@ const siteContent = {
             "Later, 7T acquired the company behind SayHey!. That transition led directly to joining 7T—carrying the same craft in React Native, product polish, and end-to-end delivery from SayHey! into broader mobile and platform work."
         ]
     },
+    frizzCheckSpotlight: {
+        title: "FrizzCheck",
+        eyebrow: "Neomorphism & hair forecasts",
+        image: "/assets/FrizzCheckLogo.png",
+        appHref: "http://www.frizzcheck.com",
+        paragraphs: [
+            "FrizzCheck is a weather-aware hair utility wrapped in a neomorphic interface—soft extruded panels, gentle depth, and quiet contrast—so the experience feels tactile and calm instead of like another loud forecast app.",
+            "Behind the UI sits a custom good-hair-day prediction pipeline that blends live conditions with a personalized hair profile (type, texture, porosity, and density) to turn humidity, trends, and weekly outlooks into a clear, immediate read on how your hair is likely to behave.",
+            "On release it resonated strongly in China—where the proposition had to read instantly—and sold well there out of the gate, validating a narrow, opinionated consumer product built for quick daily decisions."
+        ]
+    },
     featuredProjects: [
         {
             name: "DocTalk Medical",
@@ -990,6 +1001,86 @@ function PortfolioPage() {
                                 fileName: "[project]/components/PortfolioPage.js",
                                 lineNumber: 155,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "appStoreSayHey glassCard",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "appStoreSayHeyLogo",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "appStoreSayHeyLogoWrap",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                alt: "FrizzCheck app logo",
+                                                fill: true,
+                                                sizes: "128px",
+                                                src: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].frizzCheckSpotlight.image
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PortfolioPage.js",
+                                                lineNumber: 180,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/PortfolioPage.js",
+                                            lineNumber: 179,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/PortfolioPage.js",
+                                        lineNumber: 178,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "appStoreSayHeyCopy",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "eyebrow",
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].frizzCheckSpotlight.eyebrow
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PortfolioPage.js",
+                                                lineNumber: 184,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].frizzCheckSpotlight.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PortfolioPage.js",
+                                                lineNumber: 185,
+                                                columnNumber: 15
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].frizzCheckSpotlight.paragraphs.map((paragraph)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    children: paragraph
+                                                }, paragraph, false, {
+                                                    fileName: "[project]/components/PortfolioPage.js",
+                                                    lineNumber: 187,
+                                                    columnNumber: 17
+                                                }, this)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "buttonRow",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(ExternalAnchor, {
+                                                    className: "buttonGhost",
+                                                    href: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].frizzCheckSpotlight.appHref,
+                                                    children: "FrizzCheck"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/PortfolioPage.js",
+                                                    lineNumber: 190,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PortfolioPage.js",
+                                                lineNumber: 189,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/PortfolioPage.js",
+                                        lineNumber: 183,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/PortfolioPage.js",
+                                lineNumber: 177,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
@@ -1013,12 +1104,12 @@ function PortfolioPage() {
                             children: "Published Work"
                         }, void 0, false, {
                             fileName: "[project]/components/PortfolioPage.js",
-                            lineNumber: 182,
+                            lineNumber: 201,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 181,
+                        lineNumber: 200,
                         columnNumber: 9
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].publishedWorks.map((book)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1033,12 +1124,12 @@ function PortfolioPage() {
                                         src: book.cover
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 187,
+                                        lineNumber: 206,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/PortfolioPage.js",
-                                    lineNumber: 186,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1048,14 +1139,14 @@ function PortfolioPage() {
                                             children: book.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/PortfolioPage.js",
-                                            lineNumber: 190,
+                                            lineNumber: 209,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: book.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/PortfolioPage.js",
-                                            lineNumber: 191,
+                                            lineNumber: 210,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1066,30 +1157,30 @@ function PortfolioPage() {
                                                     children: link.label
                                                 }, link.href, false, {
                                                     fileName: "[project]/components/PortfolioPage.js",
-                                                    lineNumber: 194,
+                                                    lineNumber: 213,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/PortfolioPage.js",
-                                            lineNumber: 192,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PortfolioPage.js",
-                                    lineNumber: 189,
+                                    lineNumber: 208,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, book.title, true, {
                             fileName: "[project]/components/PortfolioPage.js",
-                            lineNumber: 185,
+                            lineNumber: 204,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PortfolioPage.js",
-                lineNumber: 180,
+                lineNumber: 199,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1102,12 +1193,12 @@ function PortfolioPage() {
                             children: "Performances"
                         }, void 0, false, {
                             fileName: "[project]/components/PortfolioPage.js",
-                            lineNumber: 206,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 205,
+                        lineNumber: 224,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,28 +1215,28 @@ function PortfolioPage() {
                                         title: `Zach Yanez performance video (${videoId})`
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 212,
+                                        lineNumber: 231,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/PortfolioPage.js",
-                                    lineNumber: 211,
+                                    lineNumber: 230,
                                     columnNumber: 15
                                 }, this)
                             }, videoId, false, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 210,
+                                lineNumber: 229,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 208,
+                        lineNumber: 227,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PortfolioPage.js",
-                lineNumber: 204,
+                lineNumber: 223,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1160,20 +1251,20 @@ function PortfolioPage() {
                                 children: "Gallery"
                             }, void 0, false, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 227,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "A restrained editorial treatment of the existing photography."
                             }, void 0, false, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 228,
+                                lineNumber: 247,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 226,
+                        lineNumber: 245,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1194,12 +1285,12 @@ function PortfolioPage() {
                                             src: cover
                                         }, void 0, false, {
                                             fileName: "[project]/components/PortfolioPage.js",
-                                            lineNumber: 237,
+                                            lineNumber: 256,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 236,
+                                        lineNumber: 255,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1209,14 +1300,14 @@ function PortfolioPage() {
                                                 children: series.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 245,
+                                                lineNumber: 264,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: series.credit
                                             }, void 0, false, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 246,
+                                                lineNumber: 265,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1227,31 +1318,31 @@ function PortfolioPage() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 247,
+                                                lineNumber: 266,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 244,
+                                        lineNumber: 263,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, series.title, true, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 235,
+                                lineNumber: 254,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 230,
+                        lineNumber: 249,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PortfolioPage.js",
-                lineNumber: 225,
+                lineNumber: 244,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1266,20 +1357,20 @@ function PortfolioPage() {
                                 children: "Resume"
                             }, void 0, false, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 257,
+                                lineNumber: 276,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: "Resume access stays prominent, alongside the same social and contact links."
                             }, void 0, false, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 258,
+                                lineNumber: 277,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 256,
+                        lineNumber: 275,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1292,7 +1383,7 @@ function PortfolioPage() {
                                         children: "Resume Links"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 262,
+                                        lineNumber: 281,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,20 +1396,20 @@ function PortfolioPage() {
                                                         children: link.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 267,
+                                                        lineNumber: 286,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Open"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 268,
+                                                        lineNumber: 287,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, link.href, true, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 266,
+                                                lineNumber: 285,
                                                 columnNumber: 19
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 className: "linkRow",
@@ -1329,31 +1420,31 @@ function PortfolioPage() {
                                                         children: link.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 272,
+                                                        lineNumber: 291,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Download"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 273,
+                                                        lineNumber: 292,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, link.href, true, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 271,
+                                                lineNumber: 290,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 263,
+                                        lineNumber: 282,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 261,
+                                lineNumber: 280,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1364,7 +1455,7 @@ function PortfolioPage() {
                                         children: "Where to Find Me"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 280,
+                                        lineNumber: 299,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1377,43 +1468,43 @@ function PortfolioPage() {
                                                         children: link.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 284,
+                                                        lineNumber: 303,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Visit"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/PortfolioPage.js",
-                                                        lineNumber: 285,
+                                                        lineNumber: 304,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, link.href, true, {
                                                 fileName: "[project]/components/PortfolioPage.js",
-                                                lineNumber: 283,
+                                                lineNumber: 302,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/PortfolioPage.js",
-                                        lineNumber: 281,
+                                        lineNumber: 300,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PortfolioPage.js",
-                                lineNumber: 279,
+                                lineNumber: 298,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 260,
+                        lineNumber: 279,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PortfolioPage.js",
-                lineNumber: 255,
+                lineNumber: 274,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1423,20 +1514,20 @@ function PortfolioPage() {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$siteContent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContent"].name
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 294,
+                        lineNumber: 313,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "zachyanez.com"
                     }, void 0, false, {
                         fileName: "[project]/components/PortfolioPage.js",
-                        lineNumber: 295,
+                        lineNumber: 314,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PortfolioPage.js",
-                lineNumber: 293,
+                lineNumber: 312,
                 columnNumber: 7
             }, this)
         ]

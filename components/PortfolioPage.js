@@ -174,6 +174,25 @@ export default function PortfolioPage() {
               </div>
             </div>
           </div>
+          <div className="appStoreSayHey glassCard">
+            <div className="appStoreSayHeyLogo">
+              <div className="appStoreSayHeyLogoWrap">
+                <Image alt="FrizzCheck app logo" fill sizes="128px" src={siteContent.frizzCheckSpotlight.image} />
+              </div>
+            </div>
+            <div className="appStoreSayHeyCopy">
+              <p className="eyebrow">{siteContent.frizzCheckSpotlight.eyebrow}</p>
+              <h3>{siteContent.frizzCheckSpotlight.title}</h3>
+              {siteContent.frizzCheckSpotlight.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+              <div className="buttonRow">
+                <ExternalAnchor className="buttonGhost" href={siteContent.frizzCheckSpotlight.appHref}>
+                  FrizzCheck
+                </ExternalAnchor>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
