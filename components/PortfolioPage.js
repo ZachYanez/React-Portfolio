@@ -244,7 +244,6 @@ export default function PortfolioPage() {
       <section className="contentSection" id="gallery">
         <div className="sectionHeading">
           <p className="eyebrow">Gallery</p>
-          <h2>A restrained editorial treatment of the existing photography.</h2>
         </div>
         <div className="galleryPreviewGrid">
           {siteContent.gallerySeries.map((series) => {
